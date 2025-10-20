@@ -9,6 +9,15 @@ Además del rediseño, se integró una nueva funcionalidad de **noticias y aviso
 
 ---
 
+## 🕹️ Antes y Después
+
+| Versión | Enlace |
+|----------|--------|
+| 🧱 Versión Original (sin rediseño) | [Ver sitio antiguo](https://liberty-mu.com/) |
+| 🚀 Versión Modernizada (rediseño completo) | [Ver nuevo sitio](https://libertymu2.com/) |
+
+---
+
 ## 🚀 Características Principales
 
 ### 🎨 Rediseño Moderno
@@ -23,21 +32,34 @@ Además del rediseño, se integró una nueva funcionalidad de **noticias y aviso
 
 ### 💾 Compatibilidad con WebEngine CMS
 - Se mantuvo el backend original, incluyendo conexión con base de datos MSSQL y cron jobs.  
-- Se mejoró la estructura de archivos y el rendimiento general en carga de secciones.
 
-### 🔔 Sistema de Avisos Dinámico
-- Se agregó un **panel lateral animado** para mostrar avisos del administrador.  
-- Incluye efectos visuales (blur, transiciones, iconografía SVG).  
-- Se puede desplegar y cerrar sin interrumpir la navegación del usuario.
+### 🧱 Backend y Compatibilidad
+- Mantiene el funcionamiento original del **WebEngine CMS**.  
+- Cron jobs y sistema de cache optimizado para estadísticas y rankings.
 
 ---
 
 ## 🧠 Tecnologías Utilizadas
-- **Frontend:** HTML5, CSS3, JavaScript (ES6)
-- **Backend:** PHP 8.1 con PDO y soporte para dblib (MSSQL)
-- **API:** Google Sheets API (v4)
-- **CMS Base:** WebEngine CMS (Open Source)
-- **Servidor:** Apache + XAMPP / CPanel (producción)
-- **Integración externa:** Cron jobs automáticos
+
+| Capa | Tecnologías |
+|------|--------------|
+| **Frontend** | HTML5, CSS3, JavaScript (ES6) |
+| **Backend** | PHP 8.1 |
+| **API** | Google Sheets API v4 |
+| **CMS Base** | WebEngine CMS (Open Source) |
+| **Servidor** | Apache / cPanel |
+| **Automatización** | Cron Jobs |
+---
+
+## 💡 Reflexión del Proyecto
+
+Este proyecto representa un caso real de modernización de software heredado.
+El desafío principal fue actualizar una base existente sin romper su núcleo, aplicando buenas prácticas de desarrollo moderno y manteniendo la compatibilidad con la lógica original del CMS.
+
+La integración con Google Sheets muestra la capacidad de extender sistemas antiguos con APIs modernas, logrando una administración más eficiente y sin intervención técnica.
 
 ---
+
+##🪪 Licencia
+
+Este proyecto se distribuye bajo la licencia MIT, manteniendo el crédito correspondiente al CMS original WebEngineCMS.
