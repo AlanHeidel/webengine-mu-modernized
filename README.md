@@ -60,6 +60,6 @@ La integración con Google Sheets muestra la capacidad de extender sistemas anti
 
 ---
 
-##🪪 Licencia
+## 🪪 Licencia
 
 Este proyecto se distribuye bajo la licencia MIT, manteniendo el crédito correspondiente al CMS original WebEngineCMS.
