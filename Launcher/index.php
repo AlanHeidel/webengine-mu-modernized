@@ -1,0 +1,3 @@
+<?
+echo "Aceeso restringido";
+?>

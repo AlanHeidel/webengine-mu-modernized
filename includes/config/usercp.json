@@ -1,0 +1,102 @@
+[
+    {
+        "active": true,
+        "type": "internal",
+        "phrase": "usercp_menu_txt_1",
+        "link": "usercp\/myaccount",
+        "icon": "fa-solid fa-user-gear",
+        "visibility": "user",
+        "newtab": false,
+        "order": 10
+    },
+    {
+        "active": false,
+        "type": "internal",
+        "phrase": "usercp_menu_txt_2",
+        "link": "usercp\/reset",
+        "icon": "fa-solid fa-repeat",
+        "visibility": "user",
+        "newtab": false,
+        "order": 20
+    },
+    {
+        "active": true,
+        "type": "internal",
+        "phrase": "usercp_menu_txt_6",
+        "link": "usercp\/unstick",
+        "icon": "fa-solid fa-street-view",
+        "visibility": "user",
+        "newtab": false,
+        "order": 30
+    },
+    {
+        "active": false,
+        "type": "internal",
+        "phrase": "usercp_menu_txt_3",
+        "link": "usercp\/clearpk",
+        "icon": "fa-solid fa-eraser",
+        "visibility": "user",
+        "newtab": false,
+        "order": 40
+    },
+    {
+        "active": false,
+        "type": "internal",
+        "phrase": "usercp_menu_txt_8",
+        "link": "usercp\/resetstats",
+        "icon": "fa-solid fa-chart-simple",
+        "visibility": "user",
+        "newtab": false,
+        "order": 50
+    },
+    {
+        "active": false,
+        "type": "internal",
+        "phrase": "usercp_menu_txt_10",
+        "link": "usercp\/addstats",
+        "icon": "fa-regular fa-chart-bar",
+        "visibility": "user",
+        "newtab": false,
+        "order": 60
+    },
+    {
+        "active": false,
+        "type": "internal",
+        "phrase": "usercp_menu_txt_9",
+        "link": "usercp\/clearskilltree",
+        "icon": "fa-solid fa-book-skull",
+        "visibility": "user",
+        "newtab": false,
+        "order": 70
+    },
+    {
+        "active": false,
+        "type": "internal",
+        "phrase": "usercp_menu_txt_4",
+        "link": "usercp\/vote",
+        "icon": "fa-solid fa-check-to-slot",
+        "visibility": "user",
+        "newtab": false,
+        "order": 80
+    },
+    {
+        "active": true,
+        "type": "internal",
+        "phrase": "usercp_menu_txt_5",
+        "link": "donation",
+        "icon": "fa-solid fa-circle-dollar-to-slot",
+        "visibility": "user",
+        "newtab": false,
+        "order": 90
+    },
+    {
+        "active": false,
+        "type": "internal",
+        "phrase": "usercp_menu_txt_11",
+        "link": "usercp\/buyzen",
+        "icon": "fa-solid fa-coins",
+        "visibility": "user",
+        "newtab": false,
+        "order": 100
+    }
+]

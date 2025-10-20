@@ -1,0 +1,45 @@
+# Credenciales y configuración sensible
+includes/secure/credentials.json
+includes/config/webengine.json
+.env
+
+# Cache
+includes/cache/*
+
+# Logs
+logs/*
+!logs/.gitkeep
+*.log
+error_log
+
+# Composer
+vendor/
+composer.lock
+
+# Archivos temporales
+tmp/*
+temp/*
+!tmp/.gitkeep
+
+# Uploads de usuarios
+uploads/*
+!uploads/.gitkeep
+
+# Archivos de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Testing
+phpinfo.php
+test.php
+debug.php
+
+# Configuración local
+.htaccess
