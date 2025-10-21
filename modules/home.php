@@ -27,9 +27,11 @@ if(is_array($downloadsCACHE)) {
 }
 ?>
 		<div id="header">
-			<a href="<?php echo __BASE_URL__; ?>">
-				<img class="webengine-mu-logo" src="<?php echo __PATH_TEMPLATE_IMG__; ?>logo.webp" title="<?php config('server_name'); ?>"/>
-			</a>
+			<div class="logo-container">
+				<a href="<?php echo __BASE_URL__; ?>">
+					<img class="webengine-mu-logo" src="<?php echo __PATH_TEMPLATE_IMG__; ?>logo.webp" title="<?php config('server_name'); ?>"/>
+				</a>
+			</div>
 			<div class="download-discord-container">
 				<?php	
 				echo '<a class="download-button" href="'.$downloadCLIENTS[0]['download_link'].'" target="_blank">';

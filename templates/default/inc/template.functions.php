@@ -1,17 +1,4 @@
 <?php
-/**
- * WebEngine CMS
- * https://webenginecms.org/
- * 
- * @version 1.2.2
- * @author Lautaro Angelico <http://lautaroangelico.com/>
- * @copyright (c) 2013-2020 Lautaro Angelico, All Rights Reserved
- * 
- * Licensed under the MIT license
- * http://opensource.org/licenses/MIT
- */
-
-
 function templateBuildUsercp() {
 	$cfg = loadConfig('usercp');
 	echo '<ul>';
@@ -161,9 +148,9 @@ function templateBuildNavbar() {
 		
 		# print
 		if($element['newtab']) {
-			echo '<li><a href="'.$link.'" target="_blank">'.$element['icon'].'<br>'.$title.'</a></li>';
+			echo '<li><a href="'.$link.'" target="_blank">'.$element['icon'].''.$title.'</a></li>';
 		} else {
-			echo '<li><a href="'.$link.'">'.$element['icon'].'<br>'.$title.'</a></li>';
+			echo '<li><a href="'.$link.'">'.$element['icon']. '' .$title.'</a></li>';
 		}
 	}
 	echo '</ul>';

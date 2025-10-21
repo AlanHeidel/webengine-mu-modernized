@@ -243,3 +243,27 @@ document.addEventListener('click', function (event) {
 		}
 	}
 });
+
+function toggleMobileMenu() {
+	const menu = document.querySelector('.mobile-menu-content');
+	const btn = document.querySelector('.burger-button');
+	const body = document.body;
+	const avisos = document.querySelector('.notices-toggle')
+
+	menu.classList.toggle('open');
+	btn.classList.toggle('open');
+
+	const isOpen = menu.classList.contains('open');
+	body.classList.toggle('no-scroll', isOpen);
+
+	if (isOpen) {
+		avisos.classList.add('hidden');
+	} else {
+		avisos.classList.remove('hidden');
+	}
+
+
+	menu.addEventListener('click', (event) => {
+		if (event.target.matches('a')) toggleMobileMenu();
+	});
+}

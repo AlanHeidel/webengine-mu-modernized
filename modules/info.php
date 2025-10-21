@@ -232,7 +232,9 @@ echo '<div class="page-title"><span>'.lang('module_titles_txt_17').'</span></div
 		 
 		 <!-- VIDEO -->
 		 <h2 class="unicial text-white">Video Presentacion</h2>
-		 <iframe class="video-info" width="636" height="357" src="https://www.youtube.com/embed/UTPWDxVBhr4?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+     <div class="video-container">
+       <iframe class="video-info" width="636" height="357" src="https://www.youtube.com/embed/UTPWDxVBhr4?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+     </div>
 	 </div>
 	</div>
 	 

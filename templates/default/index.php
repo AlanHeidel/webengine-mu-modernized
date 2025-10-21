@@ -50,7 +50,7 @@ $ColorTemplateAlpha = config('color_template',true)."80";
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display&family=Uncial+Antiqua&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-		<link href="<?php echo __PATH_TEMPLATE_CSS__; ?>style.css" rel="stylesheet" media="screen">
+		<link href="<?php echo __PATH_TEMPLATE_CSS__; ?>style.css?v=1.0.2" rel="stylesheet" media="screen">
 		<link href="<?php echo __PATH_TEMPLATE_CSS__; ?>profiles.css" rel="stylesheet" media="screen">
 		<link href="<?php echo __PATH_TEMPLATE_CSS__; ?>castle-siege.css" rel="stylesheet" media="screen">
 		<link href="<?php echo __PATH_TEMPLATE_CSS__; ?>override.css" rel="stylesheet" media="screen">
@@ -77,9 +77,11 @@ $ColorTemplateAlpha = config('color_template',true)."80";
 						<img class="webengine-mu-logo-navbar" src="<?php echo __PATH_TEMPLATE_IMG__; ?>logo.webp" title="<?php config('server_name'); ?>"/>
 					</a>
 				</div>
-				<?php templateBuildNavbar(); ?>
+				<div class="navbar-desktop">
+					<?php templateBuildNavbar(); ?>
+				</div>
 			</div>
-			<div class="navbar-buttons">
+			<div class="navbar-buttons-desktop">
 				<?php if(isLoggedIn()) { ?>
 					<a class="signin-myaccount-button" href="<?php echo __BASE_URL__; ?>usercp/"><?php echo lang('menu_txt_5'); ?></a>
 					<a class="login-logout-button" href="<?php echo __BASE_URL__; ?>logout/" class="logout"><?php echo lang('menu_txt_6'); ?></a>
@@ -87,9 +89,28 @@ $ColorTemplateAlpha = config('color_template',true)."80";
 						<a class="signin-myaccount-button" href="<?php echo __BASE_URL__; ?>register/"><?php echo lang('menu_txt_3'); ?></a>
 						<a class="login-logout-button" href="<?php echo __BASE_URL__; ?>login/"><?php echo lang('menu_txt_4'); ?></a>
 						<?php } ?>
+			</div>
+			<div class="mobile-menu">
+				<button class="burger-button" onClick="toggleMobileMenu()">
+            		<span class="top"></span>
+            		<span class="middle"></span>
+            		<span class="bottom"></span>
+        		</button>
+				<div class="mobile-menu-content">
+					<?php templateBuildNavbar(); ?>
+					<div class="navbar-buttons-mobile">
+						<?php if(isLoggedIn()) { ?>
+							<a class="signin-myaccount-button" href="<?php echo __BASE_URL__; ?>usercp/"><?php echo lang('menu_txt_5'); ?></a>
+							<a class="login-logout-button" href="<?php echo __BASE_URL__; ?>logout/" class="logout"><?php echo lang('menu_txt_6'); ?></a>
+						<?php } else { ?>
+							<a class="signin-myaccount-button" href="<?php echo __BASE_URL__; ?>register/"><?php echo lang('menu_txt_3'); ?></a>
+							<a class="login-logout-button" href="<?php echo __BASE_URL__; ?>login/"><?php echo lang('menu_txt_4'); ?></a>
+						<?php } ?>
 					</div>
 				</div>
 			</div>
+		</div>
+	</div>
 
 <div id="main-content">
 
@@ -204,7 +225,7 @@ $handler->loadModule($page, $subpage);
         } );
     </script>
 
-		<script src="<?php echo __PATH_TEMPLATE_JS__; ?>main.js"></script>
+		<script src="<?php echo __PATH_TEMPLATE_JS__; ?>main.js?v=1.0.2"></script>
 		<script src="<?php echo __PATH_TEMPLATE_JS__; ?>tooltip.js"></script>
 		
 		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
