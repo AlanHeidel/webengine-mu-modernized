@@ -2896,12 +2896,12 @@ body.no-scroll {
 	}
 
 	.webengine-mu-logo {
-		width: 350px;
-		margin-top: 30px;
+		width: 300px;
+		margin-top: 20px;
 	}
 
 	.download-discord-container {
-		margin-bottom: 50px;
+		margin-bottom: 20px;
 	}
 
 	.sub-header {
@@ -2939,7 +2939,7 @@ body.no-scroll {
 	}
 
 	.sets-container>div img {
-		width: 200px;
+		width: 300px;
 	}
 
 	.page-info-container {
