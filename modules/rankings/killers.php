@@ -35,7 +35,7 @@ try {
 	if(mconfig('rankings_class_filter')) $Rankings->rankingsFilterMenu();
 	
 	echo '<div class="rankings-killers-container">';
-	echo '<table class="table dataTableChar dataTable no-footer general-rank text-center mt-2" style="white-space: nowrap;" id="RankingGeneral" role="grid">';
+	echo '<table class="table dataTableChar dataTable no-footer general-rank text-center mt-2" id="RankingGeneral" role="grid">';
 	echo '<thead class="bg-primary text-white">';
 	echo '<tr role="row">';
 	if(mconfig('rankings_show_place_number')) {

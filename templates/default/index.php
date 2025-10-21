@@ -50,7 +50,7 @@ $ColorTemplateAlpha = config('color_template',true)."80";
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display&family=Uncial+Antiqua&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-		<link href="<?php echo __PATH_TEMPLATE_CSS__; ?>style.css?v=1.0.2" rel="stylesheet" media="screen">
+		<link href="<?php echo __PATH_TEMPLATE_CSS__; ?>style.css?v=1.0.3" rel="stylesheet" media="screen">
 		<link href="<?php echo __PATH_TEMPLATE_CSS__; ?>profiles.css" rel="stylesheet" media="screen">
 		<link href="<?php echo __PATH_TEMPLATE_CSS__; ?>castle-siege.css" rel="stylesheet" media="screen">
 		<link href="<?php echo __PATH_TEMPLATE_CSS__; ?>override.css" rel="stylesheet" media="screen">

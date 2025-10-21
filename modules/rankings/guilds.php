@@ -29,7 +29,7 @@ try {
 	if(!is_array($onlineCharacters)) $onlineCharacters = array();
 	
 	echo '<div class="rankings-guilds-container">';
-	echo '<table class="table text-white dataTableChar dataTable no-footer general-rank text-center mt-2" style="white-space: nowrap;" id="RankingGeneral" role="grid">';
+	echo '<table class="table text-white dataTableChar dataTable no-footer general-rank text-center mt-2" id="RankingGeneral" role="grid">';
 	echo '<thead class="bg-primary text-white">';
 	echo '<tr role="row">';
 	if(mconfig('rankings_show_place_number')) {
