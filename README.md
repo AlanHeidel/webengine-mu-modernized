@@ -1,6 +1,6 @@
-# 🌐 Liberty MU — Rediseño y Modernización de WebEngine CMS
+# Liberty MU — Rediseño y Modernización de WebEngine CMS
 
-## 🧩 Descripción del Proyecto
+## Descripción del Proyecto
 Este proyecto es una **versión rediseñada y modernizada** de una página web gratuita y open source basada en **WebEngine CMS**, utilizada para servidores privados del juego **MU Online**.
 
 El reto fue tomar una base heredada (un CMS antiguo, con estructura rígida y estilos desactualizados) y **renovar completamente su diseño visual y experiencia de usuario**, manteniendo la compatibilidad con el sistema original.
@@ -9,37 +9,37 @@ Además del rediseño, se integró una nueva funcionalidad de **noticias y aviso
 
 ---
 
-## 🕹️ Antes y Después
+## Antes y Después
 
 | Versión | Enlace |
 |----------|--------|
-| 🧱 Versión Original (sin rediseño) | [Ver sitio antiguo](https://liberty-mu.com/) |
-| 🚀 Versión Modernizada (rediseño completo) | [Ver nuevo sitio](https://libertymu2.com/) |
+| Versión Original (sin rediseño) | [Ver sitio antiguo](https://liberty-mu.com/) |
+| Versión Modernizada (rediseño completo) | [Ver nuevo sitio](https://libertymu2.com/) |
 
 ---
 
-## 🚀 Características Principales
+## Características Principales
 
-### 🎨 Rediseño Moderno
+### Rediseño Moderno
 - Interfaz completamente reconstruida con un enfoque minimalista y responsivo.  
 - Colores, tipografía y estructura inspirados en interfaces de videojuegos actuales.  
 - Secciones como noticias, cuenta, rankings y avisos fueron actualizadas visualmente.
 
-### ⚙️ Integración con Google Sheets API
+### Integración con Google Sheets API
 - Permite al administrador cargar noticias o avisos directamente desde una hoja de cálculo en Google Sheets.  
 - El sitio consume la información desde una API PHP con autenticación de servicio (`credentials.json`).  
 - Los datos se muestran automáticamente en la página sin necesidad de intervención manual.
 
-### 💾 Compatibilidad con WebEngine CMS
+### Compatibilidad con WebEngine CMS
 - Se mantuvo el backend original, incluyendo conexión con base de datos MSSQL y cron jobs.  
 
-### 🧱 Backend y Compatibilidad
+### Backend y Compatibilidad
 - Mantiene el funcionamiento original del **WebEngine CMS**.  
 - Cron jobs y sistema de cache optimizado para estadísticas y rankings.
 
 ---
 
-## 🧠 Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
 | Capa | Tecnologías |
 |------|--------------|
@@ -51,7 +51,7 @@ Además del rediseño, se integró una nueva funcionalidad de **noticias y aviso
 | **Automatización** | Cron Jobs |
 ---
 
-## 💡 Reflexión del Proyecto
+## Reflexión del Proyecto
 
 Este proyecto representa un caso real de modernización de software heredado.
 El desafío principal fue actualizar una base existente sin romper su núcleo, aplicando buenas prácticas de desarrollo moderno y manteniendo la compatibilidad con la lógica original del CMS.
@@ -60,6 +60,6 @@ La integración con Google Sheets muestra la capacidad de extender sistemas anti
 
 ---
 
-## 🪪 Licencia
+## Licencia
 
 Este proyecto se distribuye bajo la licencia MIT, manteniendo el crédito correspondiente al CMS original WebEngineCMS.
